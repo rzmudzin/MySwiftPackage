@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132C11F82CF378EB00ED4B66 /* MySwiftPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 132C11F72CF378EB00ED4B66 /* MySwiftPackage */; };
 		13DDD98D2CF365D3000821CE /* MySwiftPackageExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DDD98C2CF365D3000821CE /* MySwiftPackageExampleApp.swift */; };
 		13DDD98F2CF365D3000821CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DDD98E2CF365D3000821CE /* ContentView.swift */; };
 		13DDD9912CF365D4000821CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13DDD9902CF365D4000821CE /* Assets.xcassets */; };
@@ -14,7 +15,6 @@
 		13DDD99F2CF365D4000821CE /* MySwiftPackageExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DDD99E2CF365D4000821CE /* MySwiftPackageExampleTests.swift */; };
 		13DDD9A92CF365D4000821CE /* MySwiftPackageExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DDD9A82CF365D4000821CE /* MySwiftPackageExampleUITests.swift */; };
 		13DDD9AB2CF365D4000821CE /* MySwiftPackageExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DDD9AA2CF365D4000821CE /* MySwiftPackageExampleUITestsLaunchTests.swift */; };
-		13DDD9BA2CF371F1000821CE /* MySwiftPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 13DDD9B92CF371F1000821CE /* MySwiftPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13DDD9BA2CF371F1000821CE /* MySwiftPackage in Frameworks */,
+				132C11F82CF378EB00ED4B66 /* MySwiftPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +148,7 @@
 			);
 			name = MySwiftPackageExample;
 			packageProductDependencies = (
-				13DDD9B92CF371F1000821CE /* MySwiftPackage */,
+				132C11F72CF378EB00ED4B66 /* MySwiftPackage */,
 			);
 			productName = MySwiftPackageExample;
 			productReference = 13DDD9892CF365D3000821CE /* MySwiftPackageExample.app */;
@@ -223,7 +223,7 @@
 			);
 			mainGroup = 13DDD9802CF365D3000821CE;
 			packageReferences = (
-				13DDD9B82CF371F1000821CE /* XCRemoteSwiftPackageReference "MySwiftPackage" */,
+				132C11F62CF378EB00ED4B66 /* XCRemoteSwiftPackageReference "MySwiftPackage" */,
 			);
 			productRefGroup = 13DDD98A2CF365D3000821CE /* Products */;
 			projectDirPath = "";
@@ -622,20 +622,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		13DDD9B82CF371F1000821CE /* XCRemoteSwiftPackageReference "MySwiftPackage" */ = {
+		132C11F62CF378EB00ED4B66 /* XCRemoteSwiftPackageReference "MySwiftPackage" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Archetapp/MySwiftPackage";
+			repositoryURL = "https://github.com/rzmudzin/MySwiftPackage";
 			requirement = {
-				branch = 0.9;
+				branch = main;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		13DDD9B92CF371F1000821CE /* MySwiftPackage */ = {
+		132C11F72CF378EB00ED4B66 /* MySwiftPackage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 13DDD9B82CF371F1000821CE /* XCRemoteSwiftPackageReference "MySwiftPackage" */;
+			package = 132C11F62CF378EB00ED4B66 /* XCRemoteSwiftPackageReference "MySwiftPackage" */;
 			productName = MySwiftPackage;
 		};
 /* End XCSwiftPackageProductDependency section */

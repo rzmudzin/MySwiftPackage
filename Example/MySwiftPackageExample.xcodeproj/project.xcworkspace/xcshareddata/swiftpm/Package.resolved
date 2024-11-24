@@ -3,10 +3,10 @@
     {
       "identity" : "myswiftpackage",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Archetapp/MySwiftPackage",
+      "location" : "https://github.com/rzmudzin/MySwiftPackage",
       "state" : {
-        "branch" : "0.9",
-        "revision" : "54f92277c174ee883f5b8a135fa6de6bbd87021c"
+        "branch" : "main",
+        "revision" : "fcc194310f4e37cf9c60f2f151cd5cfea4f0bbe3"
       }
     }
   ],
