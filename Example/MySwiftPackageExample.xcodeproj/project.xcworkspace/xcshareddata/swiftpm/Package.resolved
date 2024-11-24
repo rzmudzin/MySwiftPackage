@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "myswiftpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Archetapp/MySwiftPackage",
+      "state" : {
+        "branch" : "0.9",
+        "revision" : "54f92277c174ee883f5b8a135fa6de6bbd87021c"
+      }
+    }
+  ],
+  "version" : 2
+}
