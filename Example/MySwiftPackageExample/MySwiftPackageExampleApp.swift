@@ -6,13 +6,19 @@
 //
 
 import SwiftUI
-//import MySwiftPackage
+import MySwiftPackage
 
 @main
 struct MySwiftPackageExampleApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+//            SwiftUIView()
         }
+    }
+    func someFunc() {
+        _ = MySwiftPackage()
+//        _ = SwiftUIView()
+        
     }
 }
