@@ -17,7 +17,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/daltoniam/Starscream.git", from: "3.1.1"),
-        .package(path: "./CalcPackUno")
+        //.package(path: "./CalcPackUno")
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
@@ -26,7 +26,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "MySwiftPackage",
-            dependencies: ["Starscream", "CalcPackUno"],
+            dependencies: ["Starscream"],
+            //dependencies: ["Starscream", "CalcPackUno"],
             path: "Sources",
             resources: [
                 .process("Resource/Media.xcassets")
