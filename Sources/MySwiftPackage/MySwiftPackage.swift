@@ -1,10 +1,12 @@
-//import Starscream
+import Starscream
+import CalcPackUno
 
 public struct MySwiftPackage {
     public private(set) var text = "Hello, World!"
 
     public init() {
         print("Init called")
+        _ = CalculatorUno().add(2, ValueY: 2)
     }
 }
 
