@@ -2,6 +2,10 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
+import Foundation
+
+print("Hello, World!")
+NSLog("Testing 1,2,3")
 
 let package = Package(
     name: "MySwiftPackage",
