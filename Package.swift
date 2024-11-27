@@ -17,7 +17,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/daltoniam/Starscream.git", from: "3.1.1"),
-        .package(path: "CalcPackUno")
+        .package(path: "file:///Users/rzmud035/MySwiftPackage/CalcPackUno")
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
